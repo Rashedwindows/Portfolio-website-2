@@ -6,12 +6,9 @@ body{
     margin: 0;
 }
 
-.orange-color{
 
-    color:orange;
-}
 
-section{
+.flexible-container{
 
     display: flex;
     margin-bottom: 100px;
@@ -66,4 +63,43 @@ section{
 .half-width p{
 
     color:dimgray;
+}
+
+
+.experiences{
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+
+
+
+.experiences h1{
+
+    font-size: 45px;
+}
+
+.experience-item{
+
+    width: 50%;
+    box-shadow: 2px 10px 15px gray;
+    margin-left:5%;
+    margin-right: 5%;
+    padding-left: 40px;
+}
+
+.experience-item h1{
+
+    font-size: 35px;
+}
+
+.lightsalmon{
+
+    color:lightsalmon
+}
+
+.skyblue{
+
+    color:blue;
 }
