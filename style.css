@@ -6,7 +6,10 @@ body{
     margin: 0;
 }
 
+.orange-color{
 
+    color:orange;
+}
 
 .flexible-container{
 
@@ -94,6 +97,11 @@ body{
     font-size: 35px;
 }
 
+.experience-item p{
+
+    color:dimgray;
+}
+
 .lightsalmon{
 
     color:lightsalmon
@@ -102,4 +110,24 @@ body{
 .skyblue{
 
     color:blue;
+}
+
+#fullstack{
+
+    border-left: 10px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+#baby{
+
+    border-left: 10px solid;
+    border-image:linear-gradient(tomato,lightsalmon);
+    border-image-slice: 1;
+}
+
+footer p{
+
+    text-align: center;
+    color:dimgray;
 }
